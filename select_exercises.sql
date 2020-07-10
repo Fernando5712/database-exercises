@@ -17,6 +17,13 @@ SELECT artist FROM albums WHERE artist = 'Michael Jackson';
 UPDATE albums SET artist = 'Peter Jackson' WHERE 'Michael Jackson';
 
 -- Delete exercise --
+SELECT * FROM albums
+WHERE release_date > 1991;
 
+SELECT * FROM albums
+WHERE genre LIKE '%disco%';
+
+DELETE from albums
+WHERE release_date > 1992;
 
 
